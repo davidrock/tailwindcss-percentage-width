@@ -1,0 +1,27 @@
+{
+  "name": "tailwindcss-percentage-width",
+  "version": "0.0.1",
+  "description": "This plugin add a new utility class so you can use from 0% to 100% in your widths.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidrock/tailwindcss-percentage-width.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "width",
+    "percentage",
+    "tailwind",
+    "plugin"
+  ],
+  "author": "David Rock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidrock/tailwindcss-percentage-width/issues"
+  },
+  "homepage": "https://github.com/davidrock/tailwindcss-percentage-width#readme",
+  "dependencies": {}
+}
