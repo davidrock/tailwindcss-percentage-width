@@ -1,15 +1,17 @@
-module.exports = () => {
-  ({ e, addUtilities }) => {
-    const lista = [...Array(100).keys()];
+const plugin = require('tailwindcss/plugin');
 
-    const newUtilities = lista.map((x) => {
-      return {
-        [`.${e(`w-${x}%`)}`]: {
-          width: `${x}%`,
-        },
-      };
-    });
+const percentageWidth = plugin(({ e, addUtilities }) => {
+  const lista = [...Array(100).keys()];
 
-    addUtilities(newUtilities);
-  };
-};
+  const newUtilities = lista.map((x) => {
+    return {
+      [`.${e(`w-${x}%`)}`]: {
+        width: `${x}%`,
+      },
+    };
+  });
+
+  addUtilities(newUtilities);
+});
+
+module.exports = percentageWidth;
