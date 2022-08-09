@@ -13,7 +13,7 @@ or
 ### Load the plugin in your `tailwind.config.js` file
 
     //tailwind.config.js
-    const  percentageWidth = require('tailwindcss-percentage-width'); // load the plugin
+    const percentageWidth = require('tailwindcss-percentage-width'); // load the plugin
     module.exports = {
 	    purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
 	    darkMode:  false, // or 'media' or 'class'
@@ -22,7 +22,7 @@ or
 	       extend: {},
 	    },
 	    plugins: [
-	        percentageWidth, // tell tailwindcss that you want to use it
+	        percentageWidth, // <== Add our plugin to the list of tailwind plugins
 	        //other plugins...
 	    ]
     };
