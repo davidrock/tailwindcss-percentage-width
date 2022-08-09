@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-percentage-width",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This plugin add a new utility class so you can use from 0% to 100% in your widths.",
   "main": "index.js",
   "scripts": {
